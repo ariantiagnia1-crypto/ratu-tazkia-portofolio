@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RT. Tazkia Tunnazah | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#FFF9F7;
+    color:#4A4A4A;
+}
+
+/* HERO */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:40px;
+    background:
+    radial-gradient(circle at top right,#F7D6D0 0%,transparent 35%),
+    radial-gradient(circle at bottom left,#DCE5D8 0%,transparent 35%),
+    #FFF9F7;
+}
+
+.hero-content{
+    max-width:850px;
+}
+
+.hero h4{
+    color:#B5838D;
+    letter-spacing:3px;
+    margin-bottom:15px;
+    font-size:18px;
+}
+
+.hero h1{
+    font-size:95px;
+    line-height:1;
+    color:#6D6875;
+    margin-bottom:20px;
+}
+
+.hero span{
+    color:#A8B5A2;
+}
+
+.hero p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:35px;
+    color:#666;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 35px;
+    text-decoration:none;
+    border-radius:50px;
+    background:linear-gradient(135deg,#DDBEA9,#B7B7A4);
+    color:white;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-5px);
+}
+
+ .hero-image img{
+width:250px;
+height:250px;
+object-fit:cover;
+border-radius:50%;
+border:8px solid #ef4444;
+box-shadow:
+0 0 30px #ef4444,
+0 0 60px rgba(56,189,248,.4);
+}
+/* SECTION */
+
+section{
+    padding:90px 10%;
+}
+
+.title{
+    text-align:center;
+    font-size:42px;
+    color:#6D6875;
+    margin-bottom:50px;
+}
+
+.title::after{
+    content:"";
+    width:80px;
+    height:4px;
+    background:#DDBEA9;
+    display:block;
+    margin:15px auto;
+    border-radius:10px;
+}
+
+/* CARD */
+
+.card{
+    background:white;
+    padding:35px;
+    border-radius:25px;
+    box-shadow:0 10px 25px rgba(0,0,0,.08);
+    line-height:2;
+}
+
+/* PENDIDIKAN */
+
+.timeline{
+    border-left:4px solid #DDBEA9;
+    padding-left:25px;
+}
+
+.timeline-item{
+    margin-bottom:25px;
+}
+
+.timeline-item h3{
+    color:#B5838D;
+}
+
+/* SKILLS */
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+    font-weight:600;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.skill:hover{
+    transform:translateY(-8px);
+}
+
+/* EXPERIENCE */
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:20px;
+}
+
+.project{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.project:hover{
+    transform:translateY(-8px);
+}
+
+.project h3{
+    color:#B5838D;
+    margin-bottom:10px;
+}
+
+/* CONTACT */
+
+.contact{
+    text-align:center;
+    font-size:18px;
+    line-height:2.2;
+}
+
+footer{
+    background:#6D6875;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:55px;
+}
+
+.title{
+    font-size:32px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="hero-content">
+    
+
+<h4>✨ PORTFOLIO MAHASISWA SISTEM INFORMASI ✨</h4>
+
+<div class="hero-image">
+    <img src="foto.jpg" alt="gambar">
+</div>
+<h1>
+RT. TAZKIA <br>
+<span>TUNNAZAH</span>
+</h1>
+
+<p>
+💻 Mahasiswa Sistem Informasi yang memiliki minat dalam bidang teknologi informasi, pengolahan data, fotografi, dan pengembangan sistem modern.
+</p>
+
+<a href="#about" class="btn">Lihat Portfolio</a>
+
+
+</div>
+
+</section>
+
+<section id="about">
+
+<h2 class="title">🌷 Tentang Saya</h2>
+
+<div class="card">
+
+Saya adalah mahasiswa Sistem Informasi Semester 2 di Universitas Pamulang yang memiliki minat pada bidang teknologi informasi, pengolahan data, dan fotografi. Saya merupakan pribadi yang disiplin, bertanggung jawab, mampu bekerja sama dalam tim, serta memiliki kemampuan komunikasi yang baik. Saya selalu berusaha mengembangkan pengetahuan dan keterampilan untuk mendukung perkembangan di bidang teknologi dan sistem informasi.
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">🎓 Pendidikan</h2>
+
+<div class="card timeline">
+
+<div class="timeline-item">
+<h3>Universitas Pamulang</h3>
+<p>2025 - Sekarang | Sistem Informasi</p>
+</div>
+
+<div class="timeline-item">
+<h3>SMKN 2 Pandeglang</h3>
+<p>2022 - 2025</p>
+</div>
+
+<div class="timeline-item">
+<h3>SMPN 3 Pandeglang</h3>
+<p>2019 - 2022</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">💡 Personal Skills</h2>
+
+<div class="skills">
+
+<div class="skill">💻 Microsoft Office</div>
+
+<div class="skill">📊 Pengolahan Data</div>
+
+<div class="skill">🗣️ Komunikasi</div>
+
+<div class="skill">🤝 Kerja Sama Tim</div>
+
+<div class="skill">🎤 Public Speaking Dasar</div>
+
+<div class="skill">⏰ Manajemen Waktu</div>
+
+<div class="skill">📸 Fotografi</div>
+
+<div class="skill">🎯 Disiplin & Tanggung Jawab</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">💼 Pengalaman</h2>
+
+<div class="projects">
+
+<div class="project">
+<h3>🏢 PKL Disdukcapil</h3>
+<p>
+Membantu proses administrasi, pengolahan data kependudukan, serta pelayanan masyarakat selama Praktik Kerja Lapangan.
+</p>
+</div>
+
+<div class="project">
+<h3>📸 Fotografi</h3>
+<p>
+Melakukan dokumentasi kegiatan sekolah dan organisasi serta mengembangkan kemampuan fotografi.
+</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2 class="title">📬 Kontak</h2>
+
+<div class="card contact">
+
+📞 081291018690 <br>
+📧 saskiaatun@gmail.com <br>
+📍 Pandeglang, Banten
+
+</div>
+
+</section>
+
+<footer>
+✨ © 2026 RT. Tazkia Tunnazah | Portfolio Website ✨
+</footer>
+
+</body>
+</html>

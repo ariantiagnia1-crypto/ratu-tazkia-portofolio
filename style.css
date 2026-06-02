@@ -1,0 +1,217 @@
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+html{
+    scroll-behavior:smooth;
+}
+
+body{
+    background:#FFF9F7;
+    color:#4A4A4A;
+}
+
+/* HERO */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:60px 10%;
+    background:
+    radial-gradient(circle at top right,#F7D6D0 0%,transparent 35%),
+    radial-gradient(circle at bottom left,#DCE5D8 0%,transparent 35%),
+    #FFF9F7;
+}
+
+.hero-content{
+    display:flex;
+    align-items:center;
+    gap:60px;
+    max-width:1200px;
+}
+
+.profile-img{
+    width:320px;
+    height:320px;
+    object-fit:cover;
+    border-radius:50%;
+    border:10px solid white;
+    box-shadow:0 15px 40px rgba(0,0,0,.15);
+}
+
+.hero-text h4{
+    color:#B5838D;
+    letter-spacing:3px;
+    margin-bottom:15px;
+}
+
+.hero-text h1{
+    font-size:70px;
+    line-height:1.1;
+    color:#6D6875;
+    margin-bottom:20px;
+}
+
+.hero-text span{
+    color:#A8B5A2;
+}
+
+.hero-text p{
+    font-size:18px;
+    line-height:1.8;
+    margin-bottom:30px;
+}
+
+.btn{
+    display:inline-block;
+    padding:15px 35px;
+    border-radius:50px;
+    text-decoration:none;
+    background:linear-gradient(135deg,#DDBEA9,#B7B7A4);
+    color:white;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-5px);
+}
+
+/* SECTION */
+
+section{
+    padding:90px 10%;
+}
+
+.title{
+    text-align:center;
+    font-size:40px;
+    color:#6D6875;
+    margin-bottom:50px;
+}
+
+.title::after{
+    content:"";
+    width:80px;
+    height:4px;
+    background:#DDBEA9;
+    display:block;
+    margin:15px auto;
+    border-radius:10px;
+}
+
+.card{
+    background:white;
+    padding:35px;
+    border-radius:25px;
+    box-shadow:0 10px 30px rgba(0,0,0,.08);
+    line-height:2;
+}
+
+/* Pendidikan */
+
+.timeline{
+    border-left:4px solid #DDBEA9;
+    padding-left:25px;
+}
+
+.timeline-item{
+    margin-bottom:25px;
+}
+
+.timeline-item h3{
+    color:#B5838D;
+}
+
+/* Skills */
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.skill{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+    font-weight:600;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.skill:hover{
+    transform:translateY(-10px);
+}
+
+/* Pengalaman */
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.project{
+    background:white;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 10px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.project:hover{
+    transform:translateY(-10px);
+}
+
+.project h3{
+    color:#B5838D;
+    margin-bottom:15px;
+}
+
+/* Kontak */
+
+.contact{
+    text-align:center;
+    font-size:18px;
+    line-height:2.5;
+}
+
+/* Footer */
+
+footer{
+    background:#6D6875;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+/* Responsive */
+
+@media(max-width:900px){
+
+.hero-content{
+    flex-direction:column;
+    text-align:center;
+}
+
+.profile-img{
+    width:240px;
+    height:240px;
+}
+
+.hero-text h1{
+    font-size:50px;
+}
+
+}
+
+</style>
